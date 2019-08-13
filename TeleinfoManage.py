@@ -60,7 +60,9 @@ class MovieInfoManager(request.RequestDelegate):
         info.add_brief_introduce(ls[0][:-1])
 
         print(info)
-
+ls = [25754848, 27195020, 26849758, 30230682,30337138, 26660368, 26794191, 26738112,33422361, 30170894]
+for i in ls:
+    print(i)
 
 path = "https://movie.douban.com/subject/25754848/"
 mim = MovieInfoManager()
